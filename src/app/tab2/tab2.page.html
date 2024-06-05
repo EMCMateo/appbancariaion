@@ -1,0 +1,77 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-button color="danger" href="/tabs/tab1" > <ion-icon color="danger" name="arrow-back">  </ion-icon> Regresar </ion-button>
+  </ion-buttons>
+  <ion-buttons slot="end">
+    <ion-button color="danger" href="/tabs/tab3" > Siguiente<ion-icon color="danger" name="arrow-forward-outline">  </ion-icon>  </ion-button>
+  </ion-buttons>
+</ion-toolbar>
+<ion-content [fullscreen]="true"  class="ion-padding">
+  <div class="box1">
+      <ion-card class="ads">
+        <ion-img class="pic2" src="../../assets/img/Captura de pantalla 2023-09-26 231250.png"> </ion-img>
+        <ion-card-header>
+          <ion-card-title>Hola, user</ion-card-title>
+          <ion-card-subtitle>user@gmail.com</ion-card-subtitle>
+        </ion-card-header>
+      
+      </ion-card>
+    </div>
+    <ion-card >
+      <ion-card-header>
+        
+        <ion-card-subtitle>Mi dinero: </ion-card-subtitle>
+        <ion-card-title>$ 1,654.00</ion-card-title>
+      </ion-card-header>
+      <ion-card >
+        <ion-card-header>
+          <ion-card-title>Pendientes</ion-card-title>
+          
+          <ion-card-subtitle>Prox. 30 días</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-list>
+    
+            <ion-reorder-group [disabled]="false" (ionItemReorder)="handleReorder($any($event))">
+              <ion-item >
+                
+                <ion-label><h6>Carro</h6>
+                  <p class="p1"> Personal </p> </ion-label>
+                <ion-label class="ion-lbl-1">$236,654.00 </ion-label>
+                
+                <ion-reorder slot="end"></ion-reorder>
+              </ion-item>
+        
+              <ion-item >
+                
+                <ion-label><h6>Compras mensuales</h6>
+                  <p class="p1"> Personal </p> </ion-label>
+                <ion-label class="ion-lbl-1">$1000.00 </ion-label>
+                <ion-reorder slot="end"></ion-reorder>
+              </ion-item>
+                
+          
+              <ion-item >
+                
+                <ion-label><h6>Casa</h6>
+                  <p class="p1"> Banco </p> </ion-label>
+                <ion-label class="ion-lbl-1">$200.00 </ion-label>
+                <ion-reorder slot="end"></ion-reorder>
+              </ion-item>
+              <ion-item >
+                
+                <ion-label><h6>Ahorros</h6>
+                  <p class="p1"> Personal </p></ion-label>
+                <ion-label class="ion-lbl-1">$500.00 </ion-label>
+                <ion-reorder slot="end"></ion-reorder>
+              </ion-item>
+        
+            </ion-reorder-group>
+          </ion-list>
+        
+        </ion-card-content>
+      </ion-card>
+  
+  
+    </ion-card>
+  </ion-content>

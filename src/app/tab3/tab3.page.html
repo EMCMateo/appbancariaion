@@ -1,0 +1,58 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-button color="danger" href="/tabs/tab1" > <ion-icon color="danger" name="arrow-back">  </ion-icon> Regresar </ion-button>
+  </ion-buttons>
+  <ion-buttons slot="end">
+    <ion-button color="danger" href="/tabs/tab3" > Siguiente<ion-icon color="danger" name="arrow-forward-outline">  </ion-icon>  </ion-button>
+  </ion-buttons>
+</ion-toolbar>
+<ion-content [fullscreen]="true"  class="ion-padding">
+  <div class="box1-a">
+
+    <ion-button color="danger" style="min-width: 20%">Ahorros</ion-button>
+    <ion-button color="danger" fill="clear" class="ion-text-wrap" style="min-width: 20%"> Gastos</ion-button>
+  </div>
+  <ion-card  >
+    <ion-card-header>
+      
+      <ion-card-subtitle>Balance General: </ion-card-subtitle>
+      <ion-card-title>$ 1,654.00</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <div class="box1-a-1">
+
+    <ion-button color="danger" fill="clear" style="min-width: 20%">Historial</ion-button>
+    <ion-button color="danger" fill="clear" class="ion-text-wrap" style="min-width: 20%"> Mes ↓</ion-button>
+  </div>
+  <div class="box1-a">
+  <ion-img class="pic3" src="../../assets/img/Captura de pantalla 2023-09-26 233253.png"> </ion-img>
+  </div>
+  <div class="box1-a-1">
+
+    <ion-button color="danger" fill="clear" style="min-width: 20%">Categorias</ion-button>
+
+  </div>
+
+  <div class="mid-b-2">
+    <ion-card>
+
+      
+      <ion-card-header> <ion-card-subtitle>Servicios </ion-card-subtitle> <ion-card-title> </ion-card-title>
+      </ion-card-header>
+      <ion-button href="tabs/tab5" id="presentar-alerta" color="danger"> <ion-icon slot="end" name="arrow-forward-outline" ></ion-icon>Ir</ion-button>
+      </ion-card>
+    
+      <ion-card>
+      <ion-card-header> <ion-card-subtitle> Pagos </ion-card-subtitle> <ion-card-title> </ion-card-title>
+      </ion-card-header> 
+      <ion-button id="presentar-alerta-1" href="tabs/tab2" color="danger"><ion-icon slot="end" name="arrow-forward-outline"></ion-icon>Ir</ion-button>
+      </ion-card>
+    
+        <ion-card>
+      <ion-card-header> <ion-card-subtitle>Nueva Transferencia</ion-card-subtitle> <ion-card-title> </ion-card-title>
+      </ion-card-header> 
+      <ion-button id="presentar-alerta-2" href="tabs/tab4" color="danger"><ion-icon slot="end" name="arrow-forward-outline"></ion-icon>Ir</ion-button>
+      </ion-card>
+    
+  </div>
+  </ion-content>

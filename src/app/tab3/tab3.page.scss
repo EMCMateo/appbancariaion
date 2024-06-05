@@ -1,0 +1,99 @@
+ion-toolbar {
+    --opacity: 0.5;
+
+}
+ion-item {
+    --padding-start: 0;
+  }
+
+.ion-padding {
+    text-align: center;
+    
+}
+
+.p1 {
+    font-size: 8.8px;
+}
+
+.pic {
+    width: 10%;
+    height: 10%;
+    margin-left: 45%;
+    border-radius: 5px;
+}
+.xd{
+    background-color: black;
+}
+.box1 {
+    flex-direction: row;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box1-a {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    color: white;
+}
+.box1-a-1 {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 2%;
+    color: white;
+}
+.box0 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+}
+.mid-b-2{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: start;
+    
+}
+.pic2 {
+    width: 95%;
+    height: 95%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+.ion-lbl-1{
+    font-size: 0.8rem;
+    text-align: end;
+}
+.box-d{
+    background-color: #d2006e;
+    border-radius: 5px;
+}
+.mid-b-box-b {
+
+    height: auto;
+    width: auto;
+    margin: 5px;
+
+}
+.ads{
+    justify-content: center;
+    align-items: center;
+}
+.pic3 {
+    width: 50%;
+    height: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}

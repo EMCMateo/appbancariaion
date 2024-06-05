@@ -1,0 +1,30 @@
+<ion-toolbar class="new">
+  <ion-buttons slot="start">
+    <ion-button color="danger" href="/tabs/tab3" > <ion-icon color="danger" name="arrow-back">  </ion-icon> Regresar </ion-button>
+  </ion-buttons>
+  <ion-buttons slot="end">
+    <ion-button color="danger" href="/tabs/tab5" > Siguiente<ion-icon color="danger" name="arrow-forward-outline">  </ion-icon>  </ion-button>
+  </ion-buttons>
+</ion-toolbar>
+<ion-content [fullscreen]="true"  class="ion-padding">
+  <div class="box1">
+    <ion-card class="ads">
+      <ion-img class="pic2" src="../../assets/img/Captura de pantalla 2023-09-26 231250.png"> </ion-img>
+      <ion-card-header>
+        <ion-card-title>Hola, Mateo</ion-card-title>
+        <ion-card-subtitle>Balance</ion-card-subtitle>
+        <ion-card-subtitle>1,654.00</ion-card-subtitle>
+      </ion-card-header>
+    
+    </ion-card>
+  </div>
+  <ion-item>
+    <ion-input labelPlacement="floating" label="Numero de cuenta del destinatario" placeholder="Ingrese su nro de cuenta"> </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input label="Ingrese la cantidad" placeholder="$ xxx,xxx.xxx" labelPlacement="floating" ></ion-input>
+  </ion-item>
+  <div class="box1-a">
+    <ion-button color="success">Hecho</ion-button>
+  </div>
+  </ion-content>
